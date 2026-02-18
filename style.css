@@ -1,0 +1,15 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
