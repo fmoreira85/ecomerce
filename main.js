@@ -6,8 +6,8 @@ const divCards = document.getElementById("div-cards");
 loja.forEach((element, index) => {
   divCards.innerHTML += `
     <div class="col-sm-12 col-lg-6">
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
+        <div class="card mb-3 h-100" style="max-width: 540px;">
+            <div class="row g-0 align-items-center h-100">
                 <div class="col-md-4">
                     <img src="${element.image}" class="img-fluid rounded-start" alt="...">
                 </div>
